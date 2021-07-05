@@ -1,0 +1,22 @@
+{
+    "name":"Linkedin Notification Popup",
+    "description":"Get Linkedin notifications in a popup window",
+    "version":"1.0",
+    "manifest_version":2,
+   
+    "content_scripts":[
+        {
+            "matches":[
+                "https://www.linkedin.com/*"
+            ],
+            
+            "js":["contentscript.js"]
+        }
+    ],
+    "icons": { 
+       "128": "icons/icon128.png" },
+    "web_accessible_resources": ["icons/notifications.png"],
+    "permissions": [
+        "https://www.linkedin.com/*"
+    ]
+}
