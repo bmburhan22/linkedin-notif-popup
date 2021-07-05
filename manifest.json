@@ -14,8 +14,8 @@
         }
     ],
     "icons": { 
-       "128": "icons/icon128.png" },
-    "web_accessible_resources": ["icons/notifications.png"],
+       "128": "icon128.png" },
+    "web_accessible_resources": ["notifications.png"],
     "permissions": [
         "https://www.linkedin.com/*"
     ]
